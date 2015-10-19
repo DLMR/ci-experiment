@@ -1,0 +1,10 @@
+branch-defaults:
+  master:
+    environment: ci-experiment-dev
+global:
+  application_name: ci-experiment
+  default_ec2_keyname: master
+  default_platform: Node.js
+  default_region: eu-central-1
+  profile: eb-cli
+  sc: git
