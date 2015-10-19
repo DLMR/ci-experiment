@@ -1,0 +1,23 @@
+{
+  "name": "ci-experiment",
+  "version": "1.0.0",
+  "description": "Exploration of AWS and CircleCI",
+  "main": "index.js",
+  "scripts": {
+    "start": "node --harmony index.js",
+    "test": "echo \"Error: no test specified\" && exit 0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DLMR/ci-experiment.git"
+  },
+  "author": "Gustaf Dalemar",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/DLMR/ci-experiment/issues"
+  },
+  "homepage": "https://github.com/DLMR/ci-experiment#readme",
+  "dependencies": {
+    "koa": "~1.1.0"
+  }
+}
